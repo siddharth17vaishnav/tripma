@@ -1,0 +1,1 @@
+export const getAccessToken = () => JSON.parse(localStorage.getItem("token") || "null");
