@@ -1,4 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+
+.text-gradient{
+    background-image: linear-gradient(to left,#5B8EFD,#7E58FD);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
